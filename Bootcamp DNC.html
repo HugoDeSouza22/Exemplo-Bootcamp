@@ -18,6 +18,40 @@
         </div>
         <button>Login</button>
     </nav>
+    <section>
+        <header>
+            <h1>BOOTCAMP DNC</h1>
+            <p>Esse será um evento exclusivo para todos os alunos da <b>DNC</b>, 
+            que querem <span class="invert">acelerar a carreira</span> com uma semana intensiva de conteúdo de mercado entre  
+            <span class="invert">BACK-END, FRONT-END & BANCO DE DADOS.</span></p>
+        </header>
 
+        <form action="">
+            <label for="Nome">Nome:</label><br>
+            <input class="texto" type="text" name="Nome" id="nome" placeholder="Insira seu nome aqui"><br>
+
+            <label for="Sobrenome">sobrenome:</label><br>
+            <input class="texto" type="text" name="sobrenome" id="nome" placeholder="Insira seu sobrenome aqui"><br>
+
+            <label for="interesse">Área de interesse:</label><br>
+            <div id="checkbox">              
+                <input type="checkbox" name="Front-End" id="Front-End" value="Front-End" >
+                <label for="interesse" class="checkbox">Front-End</label>
+                <input type="checkbox" name="Back-End" id="Back-End" value="Back-End">
+                <label for="interesse" class="checkbox">Back-End</label>
+                <input type="checkbox" name="Banco de Dados" id="Banco de Dados" value="Banco de Dados">
+                <label for="interesse" class="checkbox">Banco de Dados</label><br>
+            </div>
+
+
+            <label for="">E-mail:</label><br>
+            <input class="texto" type="text" name="E-mail" id="nome" placeholder="Insira seu E-mail aqui"><br>
+
+            <label for="">Telefone:</label><br>
+            <input class="texto" type="text" name="Telefone" id="nome" placeholder="(99) 99999-9999"><br>
+
+            <button id="enviar">Enviar</button>
+        </form>
+    </section>
 </body>
 </html>
